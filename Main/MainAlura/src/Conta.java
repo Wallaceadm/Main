@@ -1,9 +1,14 @@
 public class Conta {
-
     double saldo;
     int agencia;
     int numero;
     String titular;
+    Class destino;
+    public Conta(){
+    };
+
+
+
     //void não dar retorno, só executa a ação para aquela foi criada;
    public void deposita(double valor){
         this.saldo += valor;
@@ -16,18 +21,6 @@ public class Conta {
        }else {
            return false;
        }
-
-       public boolean transfere(double valor, Conta destino){
-              if(this.saldo >= valor){
-              this.saldo -= valor;
-              //destino.saldo += valor;
-              destino.deposita(valor);
-              //return para execução do método;
-              return true;
-          }
-          return false;
-      }
-
+       
     }
 }
-

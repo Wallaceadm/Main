@@ -13,8 +13,6 @@ public class TestaMetodo {
         contaDaMarcela.deposita(1000);
 
 
-        contaDaMarcela.transfere(300, contaDoPaulo);
-
 
     }
 }
