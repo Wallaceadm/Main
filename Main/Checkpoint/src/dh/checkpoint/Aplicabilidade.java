@@ -15,9 +15,18 @@ public class Aplicabilidade {
         funcionarioClt1.setNumero(12);
 
         clt1.setReferencia(funcionarioClt1);
+        Beneficios beneficiosClt1 = new Beneficios();
+        beneficiosClt1.setTransporte(500.00);
+        beneficiosClt1.setValeAlimentacao(500);
+
+        clt1.setDireto(beneficiosClt1);
+
+
 
 
         System.out.println(clt1.getCpf());
         System.out.println(clt1.getSalario());
+        System.out.println(clt1.getReferencia().getRua());
+        System.out.println(clt1.getDireto().getTransporte());
     }
 }

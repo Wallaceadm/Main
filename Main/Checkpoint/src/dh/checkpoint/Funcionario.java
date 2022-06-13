@@ -9,6 +9,10 @@ public class Funcionario {
     private double salario;
     private Endereco referencia;
 
+    private Beneficios direto;
+
+
+
     public Funcionario(){
 
     }
@@ -59,6 +63,14 @@ public class Funcionario {
 
     public void setReferencia(Endereco referencia) {
         this.referencia = referencia;
+    }
+
+    public Beneficios getDireto() {
+        return direto;
+    }
+
+    public void setDireto(Beneficios direto) {
+        this.direto = direto;
     }
 
 

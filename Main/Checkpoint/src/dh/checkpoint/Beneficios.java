@@ -6,16 +6,42 @@ public class Beneficios {
     private double transporte;
     private boolean temDireito;
 
-    public boolean recebeBeneficio(){
-        boolean ContratadoTemporario = true;
-        boolean ContratadoPj = true;
+    public double getValeAlimentacao() {
+        return valeAlimentacao;
+    }
 
-        if(ContratadoTemporario || ContratadoPj){
+    public void setValeAlimentacao(double valeAlimentacao) {
+        this.valeAlimentacao = valeAlimentacao;
+    }
 
-            return !temDireito;
+    public double getTransporte() {
+        return transporte;
+    }
+
+    public void setTransporte(double transporte) {
+        this.transporte = transporte;
+    }
+
+    public boolean isTemDireito() {
+        {
+            boolean ContratadoTemporario = true;
+            boolean ContratadoPj = true;
+
+            if(ContratadoTemporario || ContratadoPj){
+
+                return !temDireito;
+            }
+
+            return false;
+
         }
 
-        return false;
-
     }
+
+    public void setTemDireito(boolean temDireito) {
+        this.temDireito = temDireito;
+    }
+
+
+
 }
