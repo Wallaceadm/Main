@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Checkpoint/Checkpoint.iml" filepath="$PROJECT_DIR$/Checkpoint/Checkpoint.iml" />
       <module fileurl="file://$PROJECT_DIR$/Main.iml" filepath="$PROJECT_DIR$/Main.iml" />
       <module fileurl="file://$PROJECT_DIR$/MainAlura/MainAlura.iml" filepath="$PROJECT_DIR$/MainAlura/MainAlura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainAlura/bytebank-herdado/bytebank-herdado.iml" filepath="$PROJECT_DIR$/MainAlura/bytebank-herdado/bytebank-herdado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainAlura/bytebank-introducao-POO/bytebank-introducao-POO.iml" filepath="$PROJECT_DIR$/MainAlura/bytebank-introducao-POO/bytebank-introducao-POO.iml" />
     </modules>
   </component>
 </project>
